@@ -28,8 +28,10 @@ Catch the `SendTransactionError` and call `getLogs()` on it for full details.
 
 The feature causing the problem seems to be this one:
 
+```json
 {
 "id": "EenyoWx9UMXYKpR8mW5Jmfmy2fRjzUtM7NduYMY8bx33",
 "description": "use memory regions to map account data into the rbpf vm instead of copying the data",
 "status": "inactive"
 },
+```
